@@ -177,7 +177,7 @@ nav:hover ul{
 }
 .social {
 	list-style-type: none;
-	text-align: center;
+	text-align: right;
 
 }
 .social li{
@@ -198,7 +198,7 @@ footer.second{
 }
 footer.second p{
 	color: #FFF;
-	text-align: center;
+	text-align: left;
 	padding:5%;
 }
 @media screen and (max-width: 768px) {
