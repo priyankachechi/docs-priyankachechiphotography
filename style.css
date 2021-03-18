@@ -186,7 +186,7 @@ nav:hover ul{
 .social i{
 	font-size: 270%;
 	margin: 1% 5% 7% 4%;
-	color: #2C2C2C;
+	color: #FFF;
 
 }
 
@@ -196,7 +196,7 @@ nav:hover ul{
 footer{
 	background-color: #2C2C2C;
 }
-footer.first p{
+footer.first {
 	color: #FFF;
 	text-align:right;
 	padding: 5%;
