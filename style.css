@@ -182,7 +182,7 @@ nav:hover ul{
 }
 .social {
 	list-style-type: none;
-	text-align: center;
+	text-align: right;
 
 }
 .social li{
@@ -201,12 +201,12 @@ nav:hover ul{
 footer{
 	background-color: #2C2C2C;
 }
-footer.first {
+.first {
 	color: #FFF;
 	text-align:right;
 	padding: 5%;
 }
-footer.second p{
+.second p{
 	color: #FFF;
 	text-align: left;
 	padding:5%;
