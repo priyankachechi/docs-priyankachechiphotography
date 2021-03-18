@@ -175,6 +175,11 @@ nav:hover ul{
 .parallax-inner{
 	padding-top: 17%;
 }
+  .container {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .social {
@@ -197,10 +202,7 @@ nav:hover ul{
 }
 footer{
 	background-color: #2C2C2C;
-  .container {
-  max-width: 1040px;
-  margin-left: auto;
-  margin-right: auto;
+
 
       .first {
 	color: #FFF;
@@ -212,7 +214,7 @@ footer{
 	text-align: left;
 	padding:5%;
 	  }
-	}
+	
 }
 	
 @media screen and (max-width: 768px) {
