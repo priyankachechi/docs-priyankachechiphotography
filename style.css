@@ -175,11 +175,7 @@ nav:hover ul{
 .parallax-inner{
 	padding-top: 17%;
 }
-  .container {
-  max-width: 1040px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  
 
 
 .social {
@@ -202,20 +198,39 @@ nav:hover ul{
 }
 #foot{
 	background-color: #2C2C2C;
-
-
-      .first {
-	color: #FFF;
-	text-align:right;
-	padding: 5%;
-       }
-      .second p{
-	color: #FFF;
-	text-align: left;
-	padding:5%;
-	  }
+	padding: center;
+        background: darken($primary-color, 10);
+        color: set-text-colour($primary-color);
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 	
+	.footer_text{
+		 text-align: right;
+                 font-size: 17px;
+	}
+	.footer_icons {
+                 margin-left: 5%;
+                 text-align: center;
+                 display: block;
+                 width: 100px;
+                 padding: 4px;
+		a{
+                    align: left;
+
+                      &:hover {
+                          color: $secondary-color;
+                          @include easeOut;
+                      }
+                 }
+         }
 }
+
+
+
+	
+
 	
 @media screen and (max-width: 768px) {
 	#menu-icon{
