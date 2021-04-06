@@ -188,17 +188,25 @@ nav:hover ul{
 .social i{
 	font-size: 270%;
 	margin: 1% 5% 7% 4%;
-	color: #2C2C2C;
+	color: #FFF;
 
 }
 
 .social i:hover{
 	color: #606060;
 }
+.social svg g,
+.social svg path {
+  fill: var(--color-light-bg);
+	
+	
 .tr { text-align: right; }
+	
 .footer-col {
   margin-bottom: 1rem;
+	color: #FFF
 }
+	
 .footer-cols {
     display: flex;
     justify-content: space-between;
@@ -209,7 +217,7 @@ footer {
   margin: 0 -1rem;
   width: calc(100% + 2rem);
   background-color: var(--color-black);
-  color: var(--color-light-bg);
+  color: #2C2C2C;
 }
 .container {
   max-width: 1040px;
