@@ -207,17 +207,18 @@ nav:hover ul{
         justify-content: space-between;
 	
 	.footer_text{
-		 text-align: right;
+		 text-align: left;
                  font-size: 17px;
+		 color:set-text-colour($primary-color);
 	}
 	.footer_icons {
                  margin-left: 5%;
-                 text-align: center;
+                 text-align: right;
                  display: block;
                  width: 100px;
                  padding: 4px;
 		a{
-                    align: left;
+                    align: right;
 
                       &:hover {
                           color: $secondary-color;
