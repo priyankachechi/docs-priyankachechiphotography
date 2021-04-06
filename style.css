@@ -180,11 +180,10 @@ nav:hover ul{
 
 .social {
 	list-style-type: none;
-	text-align: right;
 
 }
 .social li{
-	display: inline;
+	display: inline-block;
 }
 .social i{
 	font-size: 270%;
@@ -196,36 +195,38 @@ nav:hover ul{
 .social i:hover{
 	color: #606060;
 }
-#foot{
-	background-color: #2C2C2C;
-	padding: center;
-        background: darken($primary-color, 10);
-        color: set-text-colour($primary-color);
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-	
-	.footer_text{
-		 text-align: left;
-                 font-size: 17px;
-		 color:set-text-colour($primary-color);
-	}
-	.footer_icons {
-                 margin-left: 5%;
-                 text-align: right;
-                 display: block;
-                 width: 100px;
-                 padding: 4px;
-		a{
-                    align: right;
-
-                      &:hover {
-                          color: $secondary-color;
-                          @include easeOut;
-                      }
-                 }
-         }
+.tr { text-align: right; }
+.footer-col {
+  margin-bottom: 1rem;
+}
+.footer-cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+  padding: 2rem 1rem;
+  margin: 0 -1rem;
+  width: calc(100% + 2rem);
+  background-color: var(--color-black);
+  color: var(--color-light-bg);
+}
+.container {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container--narrow {
+  max-width: 680px;
+}
+@media (max-width: 700px) {
+  .container {
+    margin: auto;
+    max-width: 480px;
+  }
+  .head.container {
+    max-width: 100%;
+  }
 }
 
 
@@ -283,4 +284,21 @@ nav:hover ul{
 
 	}
 
+}
+
+@media (max-width: 700px) {
+  .footer-col {
+    text-align: center;
+  }
+}
+@media (min-width: 701px) {
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-col  {
+    width: 48%;
+    margin-bottom: 0;
+  }
 }
