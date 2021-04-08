@@ -7,6 +7,11 @@ html, body {
 	height:100%;
 	width: 100%;
 }
+:root{
+	  --color-light-bg: #F8FAFC;
+	  --color-black: #111;
+
+}
 
 h2 {
 	font-family: 'Playfair Display',serif;
@@ -217,8 +222,9 @@ footer {
   padding: 2rem 1rem;
   margin: 0 -1rem;
   width: auto;
-  background: #111;
-  color: #F8FAFC;
+  background-color: var(--color-black);
+  color: var(--color-light-bg);
+;
 }
 .container {
   max-width: auto;
