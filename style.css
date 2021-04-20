@@ -41,7 +41,7 @@ img{
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background-image: url("back2.JPG");
+	background-image: url("back2.jpg");
 	background-size: cover;
 	display: table;
 	top: 0;
@@ -170,7 +170,7 @@ nav:hover ul{
 }
 
 .parallax{
-	background: url("back2.JPG") repeat fixed 100%;
+	background: url("back2.jpg") repeat fixed 100%;
 	opacity: .5;
 	max-width: 100%;
 	height: auto;
