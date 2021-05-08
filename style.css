@@ -7,11 +7,7 @@ html, body {
 	height:100%;
 	width: 100%;
 }
-:root{
-	  --color-light-bg: #F8FAFC;
-	  --color-black: #111;
 
-}
 
 h2 {
 	font-family: 'Playfair Display',serif;
@@ -189,7 +185,7 @@ nav:hover ul{
 
 }
 .social li{
-	display: inline-block;
+	display: inline;
 }
 .social i{
 	font-size: 270%;
@@ -208,7 +204,7 @@ nav:hover ul{
 
 	
 footer.second {
-background-color: #2C2C2C;
+        background-color: #2C2C2C;
 }
 
 footer.second p{
