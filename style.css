@@ -140,7 +140,7 @@ nav:hover ul{
 .one-third-col{
 	width: 29.33333%;
 	padding: 2%;
-	float: left;
+	float: right;
 }
 .one-third-col img:hover{
 	opacity: .6;
