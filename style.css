@@ -182,29 +182,33 @@ nav:hover ul{
 .social {
 	list-style-type: none;
 	text-align: center;
+  background-color: #2C2C2C;
 
 }
 .social li{
 	display: inline;
+
 }
 .social i{
-	font-size: 270%;
-	margin: 5%;
-	color: #2C2C2C;
+	font-size: 220%;
+	margin: 1% 5% 1% 5%;
+	color: #FFF;
+
 }
 
 .social i:hover{
 	color: #606060;
 }
-	
+
 footer.second {
-        background-color: #2C2C2C;
+        background-color: #FFF;
 }
 
 footer.second p{
-	color: #FFF;
+	color: #2C2C2C;
+	font-weight: bolder;
 	text-align: center;
-	margin: 5%;
+	margin: 1%;
 }
 
 
