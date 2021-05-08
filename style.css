@@ -128,14 +128,14 @@ nav:hover ul{
 /*--NAVIGATION ended---*/
 
 .left-col{
-	width: 60%;
+	width: 65%;
 	float: left;
 	margin: 4% 0 4% 4%;
 }
 .sidebar{
-	width: 26%;
-	float: left;
-	margin: 4%;
+	width: 20%;
+	float: right;
+	margin: 5%;
 }
 .one-third-col{
 	width: 29.33333%;
